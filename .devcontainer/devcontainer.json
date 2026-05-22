@@ -21,6 +21,5 @@
       ]                                                                         }
   },
 
-  // Ensures you aren't running commands blindly as root inside the ecosyste
-m
+  // Ensures you aren't running commands blindly as root inside the ecosystem
   "remoteUser": "vscode"                                                    }
