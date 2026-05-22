@@ -84,8 +84,7 @@ def build_pdf_bytes(lines):
     return b''.join(parts)
 
 
-def make_pdf(path='/workspaces/quiz/quiz.pdf'):
-    # Prepare printable lines for the PDF
+def format_quiz_lines():
     lines = []
     lines.append('Cloud Service Model Selection — Short Scenario Quiz')
     lines.append('')
@@ -96,11 +95,21 @@ def make_pdf(path='/workspaces/quiz/quiz.pdf'):
         lines.append('Answer: ' + answer)
         lines.append('Explanation: ' + explanation)
         lines.append('')
+    return lines
 
-    pdf_bytes = build_pdf_bytes(lines)
+
+def make_pdf(path='/workspaces/quiz/quiz.pdf'):
+    pdf_bytes = build_pdf_bytes(format_quiz_lines())
     with open(path, 'wb') as f:
         f.write(pdf_bytes)
 
 
+def make_text(path='/workspaces/quiz/quiz.txt'):
+    text = '\n'.join(format_quiz_lines())
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(text)
+
+
 if __name__ == '__main__':
     make_pdf()
+    make_text()
