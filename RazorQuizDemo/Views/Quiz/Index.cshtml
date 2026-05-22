@@ -1,0 +1,56 @@
+@model RazorQuizDemo.Models.QuizViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Cloud Service Model Quiz</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        fieldset { margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #ccc; }
+        legend { font-weight: bold; }
+        .submit-row { margin-top: 1rem; }
+        .thank-you { padding: 1rem; background: #f0f8ff; border: 1px solid #7db9e8; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Cloud Service Model Selection Quiz</h1>
+
+    @if (Model.Submitted)
+    {
+        <div class="thank-you">
+            <strong>Thanks for submitting!</strong> Your selected choices have been received.
+        </div>
+    }
+
+    <form method="post">
+        @for (var i = 0; i < Model.Questions.Count; i++)
+        {
+            <fieldset>
+                <legend>@Model.Questions[i].Title</legend>
+                <p>@Model.Questions[i].Prompt</p>
+
+                @foreach (var option in Model.Questions[i].Options)
+                {
+                    <div>
+                        <label>
+                            <input type="radio"
+                                   name="Questions[@i].SelectedOption"
+                                   value="@option"
+                                   @(Model.Questions[i].SelectedOption == option ? "checked" : "") />
+                            @option
+                        </label>
+                    </div>
+                }
+            </fieldset>
+        }
+
+        <div class="submit-row">
+            <button type="submit">Submit Answers</button>
+        </div>
+    </form>
+</body>
+</html>
