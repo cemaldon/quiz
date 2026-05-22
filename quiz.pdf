@@ -1,0 +1,99 @@
+%PDF-1.4
+%����
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /MediaBox [0 0 612 792] /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+stream
+BT
+/F1 12 Tf
+72 750 Td
+(Cloud Service Model Selection — Short Scenario Quiz) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(1. Q1 — Rapid app deployment) Tj
+0 -14 Td
+(Your startup needs to deploy a web app quickly with minimal ops overhead and automatic scaling.) Tj
+0 -14 Td
+(Options: IaaS / PaaS / SaaS / FaaS) Tj
+0 -14 Td
+(Answer: PaaS) Tj
+0 -14 Td
+(Explanation: PaaS provides a managed runtime, build/deploy workflow, and autoscaling so developers focus on code instead of servers.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(2. Q2 — Full control & compliance) Tj
+0 -14 Td
+(You must run legacy software needing custom OS config, specific network setups, and full infrastructure control.) Tj
+0 -14 Td
+(Options: IaaS / PaaS / SaaS / FaaS) Tj
+0 -14 Td
+(Answer: IaaS) Tj
+0 -14 Td
+(Explanation: IaaS gives raw VMs, networking, and storage control to configure OS and compliance requirements.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(3. Q3 — Off-the-shelf business app) Tj
+0 -14 Td
+(You want a hosted CRM with standard features, low customization, and no platform management.) Tj
+0 -14 Td
+(Options: IaaS / PaaS / SaaS / FaaS) Tj
+0 -14 Td
+(Answer: SaaS) Tj
+0 -14 Td
+(Explanation: SaaS delivers a complete, provider-managed application—no infra, runtime, or app hosting work required.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(4. Q4 — Event-driven small workloads) Tj
+0 -14 Td
+(You need to process uploaded images \(resize/thumbnail\) only when events occur; cost should match usage.) Tj
+0 -14 Td
+(Options: IaaS / PaaS / SaaS / FaaS) Tj
+0 -14 Td
+(Answer: FaaS) Tj
+0 -14 Td
+(Explanation: FaaS \(serverless functions\) runs per-event, scales automatically, and you're billed per execution—ideal for sporadic, short tasks.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(5. Q5 — Containerized microservices with orchestration) Tj
+0 -14 Td
+(Your team builds microservices in containers and wants managed orchestration but control over deployments.) Tj
+0 -14 Td
+(Options: IaaS / PaaS / CaaS / FaaS) Tj
+0 -14 Td
+(Answer: CaaS) Tj
+0 -14 Td
+(Explanation: CaaS provides managed container platforms \(k8s/managed clusters\) combining deployment control with infrastructure management.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000317 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2489
+%%EOF
