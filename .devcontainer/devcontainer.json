@@ -1,25 +1,23 @@
 {
-  "name": "Python Quiz Prototype",
+  "name": "Quiz Prototype",
 
   // Pulls a secure, pre-configured Debian/Ubuntu-based Python image
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
 
   // Automatically installs required packages into the container layer upon creation
-  "postCreateCommand": "pip3 install --no-cache-dir -r requirements.txt",
+  "postCreateCommand": "",
 
   "customizations": {
     "vscode": {
       // Configures the container's internal editor settings
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "python.analysis.typeCheckingMode": "basic"
       },
       // Pre-installs key extensions so the workspace is immediately smart
       "extensions": [
-        "ms-python.python",        // Intellisense, linting, and code navigation
-        "ms-python.vscode-pylance", // Robust type-checking engine
+        "ms-dotnettools.csdevkit",        // C#
       ]                                                                         }
   },
 
-  // Ensures you aren't running commands blindly as root inside the ecosystem
-  "remoteUser": "vscode"                                                    }
+  // Ensures you aren't running commands blindly as root
+  "remoteUser": "vscode"
+}
