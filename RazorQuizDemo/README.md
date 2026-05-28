@@ -1,42 +1,50 @@
 # RazorQuizDemo
 
-A minimal ASP.NET Core Razor MVC sample for the cloud service model quiz.
+A minimal ASP.NET Core Razor app for the cloud service model quiz.
 
-## Files
+## Structure
 
-- `Controllers/QuizController.cs` — controller with GET/POST actions and quiz data.
-- `Models/QuizQuestion.cs` — question model.
-- `Models/QuizViewModel.cs` — view model for binding answers.
-- `Views/Quiz/Index.cshtml` — Razor view that renders the quiz and submit button.
+- `RazorQuizDemo/Controllers/QuizController.cs` — MVC controller with GET/POST actions.
+- `RazorQuizDemo/Controllers/QuizApiController.cs` — JSON API for quiz questions and submission.
+- `RazorQuizCore/Models` — shared model classes used by both the app and the UI library.
+- `RazorQuizUI/Views/Quiz/Index.cshtml` — Razor Class Library view for the quiz UI.
 
 ## Usage
 
-1. Add the `RazorQuizDemo` files to an ASP.NET Core MVC project.
-2. In `Startup.cs` / `Program.cs`, ensure MVC is enabled:
-
-```csharp
-builder.Services.AddControllersWithViews();
-```
-
-3. Navigate to `/Quiz` or add a route if using endpoint routing.
-
-4. The view renders the questions and posts selected answers back to the same page.
+1. Open the app project in `RazorQuizDemo`.
+2. Make sure the project references `RazorQuizUI` and `RazorQuizCore`.
+3. Start the app and navigate to `/Quiz`.
+4. The API endpoint is available at `/api/quiz`.
 
 ## Notes
 
-- This sample does not validate or score answers.
-- It is meant as a frontend prototype for collecting selections.
+- The sample now includes EF Core migrations and SQLite persistence.
+- Sample quiz questions are seeded on first run.
+- The UI is served from the Razor Class Library.
 
 ## Build & Run (local)
 
-Requirements: .NET 7 SDK
+Requirements: .NET 8 SDK
 
-To build and run the app locally from the `RazorQuizDemo` folder:
+From the workspace root or `RazorQuizDemo` folder:
 
 ```bash
+cd RazorQuizDemo
 dotnet restore
 dotnet build
-dotnet run --urls "https://localhost:5001;http://localhost:5000"
 ```
 
-The quiz page will be available at `https://localhost:5001/Quiz`.
+To apply database migrations:
+
+```bash
+dotnet ef database update
+```
+
+To run the app:
+
+```bash
+dotnet run --urls "http://localhost:5000"
+```
+
+The quiz page will be available at `http://localhost:5000/Quiz`.
+The API endpoint will be available at `http://localhost:5000/api/quiz`.

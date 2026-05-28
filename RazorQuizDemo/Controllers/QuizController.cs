@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using RazorQuizDemo.Models;
+using RazorQuizCore.Models;
 using System.Collections.Generic;
 
 namespace RazorQuizDemo.Controllers

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RazorQuizDemo.Data;
-using RazorQuizDemo.Models;
+using RazorQuizCore.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

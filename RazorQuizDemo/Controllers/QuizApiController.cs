@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RazorQuizDemo.Data;
-using RazorQuizDemo.Models;
+using RazorQuizCore.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace RazorQuizDemo.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/quiz")]
     public class QuizApiController : ControllerBase
     {
         private readonly QuizDbContext _db;

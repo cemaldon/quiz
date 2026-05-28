@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using RazorQuizDemo.Models;
+using RazorQuizCore.Models;
 
 namespace RazorQuizDemo.Data
 {

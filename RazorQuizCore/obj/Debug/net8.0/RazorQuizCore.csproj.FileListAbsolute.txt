@@ -1,0 +1,12 @@
+/workspaces/quiz/RazorQuizCore/bin/Debug/net8.0/RazorQuizCore.deps.json
+/workspaces/quiz/RazorQuizCore/bin/Debug/net8.0/RazorQuizCore.dll
+/workspaces/quiz/RazorQuizCore/bin/Debug/net8.0/RazorQuizCore.pdb
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.AssemblyInfoInputs.cache
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.AssemblyInfo.cs
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.csproj.CoreCompileInputs.cache
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.sourcelink.json
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.dll
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/refint/RazorQuizCore.dll
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/RazorQuizCore.pdb
+/workspaces/quiz/RazorQuizCore/obj/Debug/net8.0/ref/RazorQuizCore.dll

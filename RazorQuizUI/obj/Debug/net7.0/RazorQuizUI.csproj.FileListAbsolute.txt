@@ -1,0 +1,7 @@
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.AssemblyInfoInputs.cache
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.AssemblyInfo.cs
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.csproj.CoreCompileInputs.cache
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.RazorAssemblyInfo.cache
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.RazorAssemblyInfo.cs
+/workspaces/quiz/RazorQuizUI/obj/Debug/net7.0/RazorQuizUI.sourcelink.json

@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "aJQ/wYN9vciIOov+0PhoP9zL7aUbB5z5lty81+J9TwA=",
+  "Source": "RazorQuizDemo",
+  "BasePath": "_content/RazorQuizDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/workspaces/quiz/RazorQuizUI/RazorQuizUI.csproj",
+      "Version": 2,
+      "Source": "RazorQuizUI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
