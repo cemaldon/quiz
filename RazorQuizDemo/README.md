@@ -26,3 +26,17 @@ builder.Services.AddControllersWithViews();
 
 - This sample does not validate or score answers.
 - It is meant as a frontend prototype for collecting selections.
+
+## Build & Run (local)
+
+Requirements: .NET 7 SDK
+
+To build and run the app locally from the `RazorQuizDemo` folder:
+
+```bash
+dotnet restore
+dotnet build
+dotnet run --urls "https://localhost:5001;http://localhost:5000"
+```
+
+The quiz page will be available at `https://localhost:5001/Quiz`.
